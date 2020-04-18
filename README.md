@@ -4,9 +4,9 @@ Para treinar o JavaScript de vocês, vamos desenvolver uma calculadora em JavaSc
 
 ## Como Fazer
 
-No repositório clonado de vocês, haverá um arquivo *Calculadora.html* com o laout da calculadora já pronto. Vocês devem desenvolver os scripts de vocês e incluir nesse arquivo para fazer a calculadora funcionar, seguindo os requisitos listados abaixo.
+No repositório clonado de vocês, dentro do arquivo *SpecRunner.html* com o layout da calculadora já pronto, além da execução dos testes. Já existe um arquivo *calculadora.js* dentro da pasta **src**. Nesse arquivo existe a função *initCalculadora*, onde deve ser escrito a execução do seu programa. Essa função irá ser executada antes dos testes e do carregamento de tudo, então é importante escrever dentro dela.
 
-Quando estiverem prontos para testar, inclua os scripts que vocês produziram no arquivo *SpecRunner.html* para testar. Não esqueça de adicionar os arquivos novos no git antes de entregar.
+Vocês podem criar outras funções e scripts (dentro da pasta **src**). Não mexam em nenhum outro arquivo de JavaScript.
 
 A entrega será aceita APENAS por git.
 

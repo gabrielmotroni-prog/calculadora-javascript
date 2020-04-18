@@ -6,22 +6,28 @@
 
   <link rel="shortcut icon" type="image/png" href="lib/jasmine-3.2.1/jasmine_favicon.png">
   <link rel="stylesheet" href="lib/jasmine-3.2.1/jasmine.css">
+  <link rel="stylesheet" href="css/calculadora.css">
 
   <script src="lib/jasmine-3.2.1/jasmine.js"></script>
   <script src="lib/jasmine-3.2.1/jasmine-html.js"></script>
   <script src="lib/jasmine-3.2.1/boot.js"></script>
-  <script src="lib/jquery.slim.js"></script>
+  <!-- Helper Scripts -->
+  <script src="helper/LoaderHelper.js"></script>
 
-  <!-- Adicione aqui seus scripts para testar -->
-
-  <!-- Adicione acima os scripts -->
-
-  <script src="spec/OperacaoSpec.js"></script>
+  <!-- SRC Scripts -->
+  <script src="src/calculadora.js"></script>
+  
+  <!-- Spec Scripts-->
+  <script src="spec/Item1Spec.js"></script>
+  <script src="spec/Item2Spec.js"></script>
+  <script src="spec/Item3Spec.js"></script>
+  <script src="spec/Item4Spec.js"></script>
+  <script src="spec/Item5Spec.js"></script>
 
 </head>
 
 <body>
-    <div class="calculadora" style="display: none;">
+    <div class="calculadora">
         <input type="text" id="resultado" />
 
         <button class="numero">9</button>
